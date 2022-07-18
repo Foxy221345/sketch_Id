@@ -1,0 +1,40 @@
+#show_sketch
+{
+    float:right;
+    border:3px ridge purple;
+}
+
+body
+{
+ background-color:#72d6f2;
+}
+
+h1
+{
+    color: purple;
+    background-color:#d2aee6;
+}
+
+p
+{
+ padding-top:10px;
+ font-size:20px
+}
+
+canvas
+{
+    border:3px ridge purple;
+    border-radius:30px;
+    margin-top:50px;
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from {box-shadow: 3px 3px 30px #5d7e9e, -1em 0 .4em  #2f6091; }
+    to {box-shadow: 3px 3px 30px #714eb7, -1em 0 .4em  #06233f; }
+}
+
+
